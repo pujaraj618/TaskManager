@@ -1,0 +1,26 @@
+{
+  "name": "task-manager-express",
+  "version": "1.0.0",
+  "description": "crud task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"task\"",
+    "\"edit\"",
+    "\"delete\"",
+    "\"update\""
+  ],
+  "author": "Pooja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
